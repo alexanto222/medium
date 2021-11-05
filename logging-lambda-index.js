@@ -60,7 +60,7 @@ function transform(payload) {
 
         // index name format: cwl-YYYY.MM.DD
         var indexName = [
-            'cwl-bids-dev-' + timestamp.getUTCFullYear(),          // year
+            'cwl-dev-' + timestamp.getUTCFullYear(),          // year
             ('0' + (timestamp.getUTCMonth() + 1)).slice(-2),  // month
             ('0' + timestamp.getUTCDate()).slice(-2)          // day
         ].join('.');
